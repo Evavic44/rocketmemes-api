@@ -14,7 +14,7 @@ query GetMemeCategories {
 }
 ```
 
-For getting paginated results
+For getting paginated results, use an aggregate with `limit` and `offset` values set.
 ```
 query GetMemeCategories {
     meme_categories_aggregate(limit: 10, offset: 0) {
@@ -33,6 +33,7 @@ query GetMemeCategories {
 {% endhint %}
 
 ## Using the REST API
+Still under development
 
 
 {% hint style="info" %}
