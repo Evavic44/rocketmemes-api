@@ -2,22 +2,46 @@
 
 Dive into the specifics of each API endpoint by checking out our complete documentation.
 
-## Pets
+Rocketmeme exposes a graphql api. Below are details few basic operations allowed by the platform through this api.
 
-All the methods associated with `CRUD`ing some pets. Which isn't as weird as it sounds:
+## Get Meme
 
-{% content-ref url="pets.md" %}
-[pets.md](pets.md)
+This feature is for retrieving a meme and releted memes. Detaied look at the schema is found at
+
+{% content-ref url="getOneMeme.md" %}
+[users.md](getOneMeme.md)
 {% endcontent-ref %}
 
-## Users
+## Get Memes
 
-Everything related to users:
+This as it sounds, is intended for retrieving meme values from the database. A more detailed explanation for this can be found at
 
-{% content-ref url="users.md" %}
-[users.md](users.md)
+[get-memes.md](./get-memes.md)
+
+## Get Memes Templates
+This feature is for retrieving a meme and releted memes. Detaied look at the schema is found at
+
+{% content-ref url="getOneMeme.md" %}
+[users.md](getOneMeme.md)
+{% endcontent-ref %}s
+
+
+## Get Memes Categories
+This feature is for retrieving a meme and releted memes. Detaied look at the schema is found at
+
+{% content-ref url="getOneMeme.md" %}
+[users.md](get-categories.md)
 {% endcontent-ref %}
+
+
+## Memes Search
+This feature is for retrieving a meme and releted memes. Detaied look at the schema is found at
+
+{% content-ref url="memes-search.md" %}
+[users.md](memes-search.md)
+{% endcontent-ref %}
+
 
 {% hint style="info" %}
-**Good to know:** Using the 'Page Link' block lets you link directly to a page. If this page's name, URL or parent location changes, the reference will be kept up to date. You can also mention a page – like [pets.md](pets.md "mention") – if you don't want a block-level link.
+**Good to know:** This API works fine and without authentication. And is compatible with various graphql clients
 {% endhint %}
