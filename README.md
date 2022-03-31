@@ -1,14 +1,8 @@
----
-description: >-
-  The Rocketmeme API is provided for free. 😎 to use both commercially and
-  personally. If you would like to say thank-you to the creator, please buy them a [coffee](https://buymeacoffee.com/eva)
----
-
 # 🤩 Welcome to Rocketmeme API
 
-## Welcome to RocketAPI
+## Intro
 
-Welcome to rocketmeme API ! Here you'll find all the documentation you need to get up and running with the rocketmeme API. 
+Welcome to rocketmeme API! The Rocketmeme API is provided for free. 😎 to use both commercially and personally. If you would like to say thank-you to the creator, please buy them a [coffee](https://buymeacoffee.com/evavic44). Here you'll find all the documentation you need to get up and running with the rocketmeme API. 
 
 ## Want to jump right in?
 
