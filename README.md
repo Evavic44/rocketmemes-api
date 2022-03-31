@@ -1,7 +1,7 @@
 ---
 description: >-
   The Rocketmeme API is provided for free. 😎 to use both commercially and
-  personally. If you would like to say thank-you to the creator, please buy them a <a href="https://buymeacoffee.com/eva">coffee</a>
+  personally. If you would like to say thank-you to the creator, please buy them a [coffee](https://buymeacoffee.com/eva)
 ---
 
 # 🤩 Welcome to Rocketmeme API
