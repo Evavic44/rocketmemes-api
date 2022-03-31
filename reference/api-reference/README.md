@@ -16,20 +16,23 @@ This feature is for retrieving a meme and releted memes. Detaied look at the sch
 
 This as it sounds, is intended for retrieving meme values from the database. A more detailed explanation for this can be found at
 
+{% content-ref url="get-memes.md" %}
 [get-memes.md](./get-memes.md)
+{% endcontent-ref %}
+
 
 ## Get Memes Templates
 This feature is for retrieving a meme and releted memes. Detaied look at the schema is found at
 
-{% content-ref url="getOneMeme.md" %}
-[users.md](getOneMeme.md)
-{% endcontent-ref %}s
+{% content-ref url="get-one-meme.md" %}
+[users.md](get-one-meme.md)
+{% endcontent-ref %}
 
 
 ## Get Memes Categories
 This feature is for retrieving a meme and releted memes. Detaied look at the schema is found at
 
-{% content-ref url="getOneMeme.md" %}
+{% content-ref url="get-categories.md" %}
 [users.md](get-categories.md)
 {% endcontent-ref %}
 
