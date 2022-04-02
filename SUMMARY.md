@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🤩 Welcome to Rocketmeme API](README.md)
+* [Welcome to Rocketmeme API](README.md)
 * [Get Started](get-started.md)
 
 ## Reference

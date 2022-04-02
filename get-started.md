@@ -1,31 +1,53 @@
-# Quick Start
+---
+description: >-
+  In this quick guide we will look making simple requests to our the Rocketmeme
+  GraphQL API.
+---
+
+# Get Started
 
 {% hint style="info" %}
-**Good to know:** A quick start guide can be good to help folks get up and running with your API in a few steps. Some people prefer diving in with the basics rather than meticulously reading every page of documentation!
+**Good to know:** You could make a your requests with everyday programming tools you use. All it takes is a simple post request containing the query as a string.
 {% endhint %}
 
-## Get your API keys
+## Access is free
 
-Your API requests are authenticated using API keys. Any request that doesn't include an API key will return an error.
+You don't need an API key to use our API.
 
-You can generate an API key from your Dashboard at any time.
+## First request
 
-## Install the library
-
-The best way to interact with our API is to use one of our official libraries:
+We'll do a simple query to get meme categories using different languages.
 
 {% tabs %}
+{% tab title="JavaScript" %}
+```
+fetch('https://rocketmeme-user.hasura.app/v1/graphql', {
+    method: 'POST',
+    headers: {
+        'content-type': 'application/json',
+    },
+    body: JSON.stringify({"operationName":"getPaginatedMemeCategories","variables":{},"query":"query getPaginatedMemeCategories {\n  meme_categories_aggregate(limit: 10, offset: 0) {\n    nodes {\n      id\n      category_title\n      no_of_memes\n      thumb_nail\n      __typename\n    }\n    __typename\n  }\n  count: memes_aggregate(offset: 0) {\n    aggregate {\n      count\n      __typename\n    }\n    __typename\n  }\n}\n"})
+});
+```
+{% endtab %}
+
 {% tab title="Node" %}
 ```
-# Install via NPM
-npm install --save my-api
 ```
 {% endtab %}
 
 {% tab title="Python" %}
 ```
-# Install via pip
-pip install --upgrade myapi
+import requests
+
+json_data = {
+    'operationName': 'getPaginatedMemeCategories',
+    'variables': {},
+    'query': 'query getPaginatedMemeCategories {\n  meme_categories_aggregate(limit: 10, offset: 0) {\n    nodes {\n      id\n      category_title\n      no_of_memes\n      thumb_nail\n      __typename\n    }\n    __typename\n  }\n  count: memes_aggregate(offset: 0) {\n    aggregate {\n      count\n      __typename\n    }\n    __typename\n  }\n}\n',
+}
+
+response = requests.post('https://rocketmeme-user.hasura.app/v1/graphql', json=json_data)
+print(response.content)
 ```
 {% endtab %}
 {% endtabs %}
@@ -81,48 +103,5 @@ The breed of the pet
 {% endswagger-response %}
 {% endswagger %}
 
-{% hint style="info" %}
-**Good to know:** You can use the API Method block to fully document an API method. You can also sync your API blocks with an OpenAPI file or URL to auto-populate them.
-{% endhint %}
+****
 
-Take a look at how you might call this method using our official libraries, or via `curl`:
-
-{% tabs %}
-{% tab title="curl" %}
-```
-curl https://api.myapi.com/v1/pet  
-    -u YOUR_API_KEY:  
-    -d name='Wilson'  
-    -d species='dog'  
-    -d owner_id='sha7891bikojbkreuy'  
-```
-{% endtab %}
-
-{% tab title="Node" %}
-```javascript
-// require the myapi module and set it up with your API key
-const myapi = require('myapi')(YOUR_API_KEY);
-
-const newPet = away myapi.pet.create({
-    name: 'Wilson',
-    owner_id: 'sha7891bikojbkreuy',
-    species: 'Dog',
-    breed: 'Golden Retriever',
-})
-```
-{% endtab %}
-
-{% tab title="Python" %}
-```python
-// Set your API key before making the request
-myapi.api_key = YOUR_API_KEY
-
-myapi.Pet.create(
-    name='Wilson',
-    owner_id='sha7891bikojbkreuy',
-    species='Dog',
-    breed='Golden Retriever',
-)
-```
-{% endtab %}
-{% endtabs %}
