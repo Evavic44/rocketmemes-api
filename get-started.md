@@ -14,7 +14,9 @@ description: >-
 
 You don't need an API key to use our API.
 
-## First request
+## Making your first request
+
+### GraphQL API
 
 We'll do a simple query to get meme categories using different languages.
 
@@ -53,12 +55,12 @@ print(response.content)
 {% endtabs %}
 
 {% hint style="info" %}
-**Good to know:** Using tabs to separate out different languages is a great way to present technical examples or code documentation without cramming your docs with extra sections or pages per language.
+**Good to know:** You could use GraphQL client libraries to simplify requests.&#x20;
 {% endhint %}
 
-## Make your first request
+### Rest API
 
-To make your first request, send an authenticated request to the pets endpoint. This will create a `pet`, which is nice.
+To make your first request, send a request to the memes endpoint. This will return a list of memes, which is nice.
 
 {% swagger baseUrl="https://api.myapi.com/v1" method="post" path="/pet" summary="Create pet." %}
 {% swagger-description %}
