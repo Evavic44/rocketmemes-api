@@ -1,4 +1,10 @@
-# Pets
+---
+description: >-
+  This feature is for retrieving memes related or associated with a search term
+  based on the categories or title. Detailed look at the schema is found at
+---
+
+# Memes Search
 
 ## Creating a new pet
 

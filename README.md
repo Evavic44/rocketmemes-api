@@ -1,17 +1,21 @@
-# 🤩 Welcome to Rocketmeme API
+# Rocketmeme API
 
 ## Intro
 
-Welcome to rocketmeme API! The Rocketmeme API is provided for free. 😎 to use both commercially and personally. If you would like to say thank-you to the creator, please buy them a [coffee](https://buymeacoffee.com/evavic44). Here you'll find all the documentation you need to get up and running with the rocketmeme API. 
+Welcome to Rocketmeme API Docs! This API is provided for free 😎 to use both commercially and personally. If you would like to say thank you to the creator, please buy them a [coffee](https://buymeacoffee.com/evavic44). Here you'll find all the documentation you need to get up and running with the Rocketmeme API.
 
-## Want to jump right in?
+## Get Started
 
-Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
+Feeling like an eager beaver? Jump in to the quick start docs and start making your first request:
 
-[get-started.md](./get-started.md)
+{% content-ref url="get-started.md" %}
+[get-started.md](get-started.md)
+{% endcontent-ref %}
 
-## Want to deep dive?
+## API Reference
 
 Dive a little deeper and start exploring our API reference to get an idea of everything that's possible with the API:
 
-[api-reference](reference/api-reference/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}

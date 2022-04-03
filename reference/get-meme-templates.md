@@ -1,4 +1,10 @@
-# Pets
+---
+description: >-
+  This feature is for retrieving fresh meme templates for creating memes.
+  Detailed look at the schema is found below
+---
+
+# Get Memes Templates
 
 ## Creating a new pet
 

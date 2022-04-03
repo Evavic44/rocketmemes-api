@@ -1,4 +1,10 @@
-# Pets
+---
+description: >-
+  This as it sounds, is intended for retrieving meme values from the database. A
+  more detailed explanation for this can be found below
+---
+
+# Get Memes
 
 ## Creating a new pet
 
