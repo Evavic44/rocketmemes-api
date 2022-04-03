@@ -22,7 +22,7 @@ We'll do a simple query to get meme categories using different languages.
 
 {% tabs %}
 {% tab title="JavaScript" %}
-```
+```javascript
 fetch('https://rocketmeme-user.hasura.app/v1/graphql', {
     method: 'POST',
     headers: {
@@ -34,12 +34,38 @@ fetch('https://rocketmeme-user.hasura.app/v1/graphql', {
 {% endtab %}
 
 {% tab title="Node" %}
-```
+```javascript
+import fetch from "node-fetch";
+
+const query = `
+  query getMemes {
+    memes(limit: 3) {
+      id
+      title
+      image_link
+    }
+  }
+`;
+
+const result = await fetch("https://rocketmeme-user.hasura.app/v1/graphql", {
+  method: "POST",
+  headers: {
+    "content-type": "application/json",
+  },
+  body: JSON.stringify({
+    operationName: "getMemes",
+    variables: {},
+    query: query,
+  }),
+});
+
+const data = await result.json();
+console.log(data);
 ```
 {% endtab %}
 
 {% tab title="Python" %}
-```
+```python
 import requests
 
 json_data = {
