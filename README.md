@@ -11,14 +11,14 @@ coverY: 299.36842105263133
 
 Welcome to Rocketmeme API Docs! This API is provided for free 😎 to use both commercially and personally. Here you'll find all the documentation you need to get up and running with the Rocketmeme API.&#x20;
 
-<mark style="color:red;">If you would like to say thank you to the creators, please buy them a coffee.</mark>&#x20;
+<mark style="color:red;">If you would like to say thank you to the creators, the best way is to buy them a coffee.</mark>&#x20;
 
 ### Creators
 
-| Creator                                              | Buymeacoffee Link                                                                  |
-| ---------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| <mark style="color:green;">Victor Eke</mark>         | [https://www.buymeacoffee.com/evavic44](https://www.buymeacoffee.com/evavic44)     |
-| <mark style="color:orange;">Spiff Jekey Green</mark> | [https://www.buymeacoffee.com/spiffgreen](https://www.buymeacoffee.com/spiffgreen) |
+| Creator           | Buymeacoffee Link                                                                                                                                                                                                     |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Victor Eke        | <mark style="background-color:green;"></mark>[<mark style="background-color:green;">https://www.buymeacoffee.com/evavic44</mark>](https://www.buymeacoffee.com/evavic44)<mark style="background-color:green;"></mark> |
+| Spiff Jekey Green | <mark style="background-color:green;">https://www.buymeacoffee.com/spiffgreen</mark>                                                                                                                                  |
 
 ## Get Started
 
