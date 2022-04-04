@@ -10,7 +10,7 @@ description: >-
 
 Quickly fetch a list of meme categories on Rocketmemes
 
-```
+```graphql
 query GetMemeCategories {
     meme_categories() {
         id
@@ -23,7 +23,7 @@ query GetMemeCategories {
 
 For getting paginated results, use an aggregate with `limit` and `offset` values set.
 
-```
+```graphql
 query GetMemeCategories {
     meme_categories_aggregate(limit: 10, offset: 0) {
         nodes {
