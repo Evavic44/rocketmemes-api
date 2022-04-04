@@ -15,10 +15,10 @@ Welcome to Rocketmeme API Docs! This API is provided for free 😎 to use both c
 
 ### Creators
 
-| Creator           | Buymeacoffee Link                                                              |
-| ----------------- | ------------------------------------------------------------------------------ |
-| Victor Eke        | [https://www.buymeacoffee.com/evavic44](https://www.buymeacoffee.com/evavic44) |
-| Spiff Jekey Green | https://www.buymeacoffee.com/spiffgreen                                        |
+| Creator           | Buymeacoffee Link                                                        |
+| ----------------- | ------------------------------------------------------------------------ |
+| Victor Eke        | <mark style="color:blue;">https://www.buymeacoffee.com/evavic44</mark>   |
+| Spiff Jekey Green | <mark style="color:blue;">https://www.buymeacoffee.com/spiffgreen</mark> |
 
 ## Get Started
 
