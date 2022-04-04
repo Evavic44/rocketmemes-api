@@ -1,4 +1,10 @@
-# Rocketmeme API
+---
+cover: >-
+  https://user-images.githubusercontent.com/62628408/156625869-36fc5d11-ed4b-45bb-85d8-4d601c19505e.png
+coverY: 299.36842105263133
+---
+
+# 🚀 Rocketmeme API
 
 ## Intro
 

@@ -1,12 +1,12 @@
 ---
-description: You could get memes whether its paginated or not
+description: You could get details of pusining  meme whether its paginated or not
 ---
 
 # Get Meme
 
 ## GraphQL
 
-### Getting  All memes
+### Getting  memes
 
 ```graphql
 query {
